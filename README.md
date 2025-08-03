@@ -83,7 +83,7 @@ axum-nextjs/
 ### Prerequisites
 
 - [Rust](https://www.rust-lang.org/tools/install) 1.70+
-- [Node.js](https://nodejs.org/) 18.0+ (includes npm)
+- [Node.js](https://nodejs.org/) 18.0+ (includes pnpm)
 - [Docker](https://www.docker.com/) & Docker Compose
 - [PostgreSQL](https://www.postgresql.org/) (via Docker or local installation)
 
@@ -107,7 +107,7 @@ cargo build
 
 ```sh
 cd ../frontend
-npm install
+pnpm install
 ```
 
 ## Running the Project
@@ -157,7 +157,7 @@ cargo run
 
 ```sh
 cd frontend
-npm run dev
+pnpm run dev
 ```
 
 The backend will typically run on `localhost:3001` and the frontend on `localhost:3000`.
